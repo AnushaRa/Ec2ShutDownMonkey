@@ -28,18 +28,18 @@ Once you have edited your function you can use the following command lines to bu
 
 Restore dependencies
 ```
-    cd "StopMonkey"
+    cd "Ec2ShutDownMonkey"
     dotnet restore
 ```
 
 Execute unit tests
 ```
-    cd "StopMonkey/test/StopMonkey.Tests"
+    cd "Ec2ShutDownMonkey/test/Ec2ShutDownMonkey.Tests"
     dotnet test
 ```
 
 Deploy function to AWS Lambda
 ```
-    cd "StopMonkey/src/StopMonkey"
+    cd "Ec2ShutDownMonkey/src/Ec2ShutDownMonkey"
     dotnet lambda deploy-function
 ```
