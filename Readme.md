@@ -34,12 +34,12 @@ Restore dependencies
 
 Execute unit tests
 ```
-    cd "Ec2ShutDownMonkey/test/Ec2ShutDownMonkey.Tests"
+    cd "Ec2ShutDownMonkey/test/stopmonkey.Tests"
     dotnet test
 ```
 
 Deploy function to AWS Lambda
 ```
-    cd "Ec2ShutDownMonkey/src/Ec2ShutDownMonkey"
+    cd "Ec2ShutDownMonkey/src/stopmonkey"
     dotnet lambda deploy-function
 ```
